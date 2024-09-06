@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25sp"
+            android:text="Latihan 5"
+            android:textAlignment="center"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnsuhu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="Konversi suhu"
+            android:layout_marginLeft="20sp"
+            android:layout_marginTop="40sp"
+            android:layout_marginRight="20sp"/>
+
+        <Button
+            android:id="@+id/btnhitung"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="menghitung Diskon Belanja"
+            android:textAlignment="center"
+            android:layout_marginLeft="20sp"
+            android:layout_marginRight="20sp"
+
+        />
+
+        <Button
+            android:id="@+id/btnruang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bangun Ruang"
+            android:layout_marginLeft="20sp"
+            android:layout_marginRight="20sp"/>
+
+        <Button
+            android:id="@+id/btnbilangan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bilangan"
+            android:layout_marginLeft="20sp"
+            android:layout_marginRight="20sp"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
